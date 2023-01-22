@@ -55,6 +55,7 @@ nav {
 
 p {
     margin-top: 0;
+    color: white;
 }
 
 .button {
@@ -112,4 +113,36 @@ p {
 .quote-autor {
     margin-top: 50px;
     padding-top: 5;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    margin: 80px 300px 80px 300px;
+    padding: 40px 0 40px 0;
+    border-radius: 10px;
+
+}
+
+h3 {
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.call-button {
+    margin: 22px 0 22px 0;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 300;
 }
