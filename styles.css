@@ -1,0 +1,115 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    padding:  10px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.nav > a{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.body {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    align-items: center;
+    color: white;
+}
+
+.main {
+    margin-bottom: 35px;
+}
+
+.img {
+    margin: 50px;
+}
+
+#awesome {
+    font-size: 48px;
+    font-weight: 700;
+    color: #F9FAF8;
+    margin: 0 0;
+}
+
+p {
+    margin-top: 0;
+}
+
+.button {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.types {
+    text-align: center;
+    font-size: 36px;
+    font-size: 700;
+    color: #1F2937;
+}
+
+.info-header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    margin-bottom: 100px;
+    
+}
+
+.info > img {
+    border-radius: 5%;
+}
+
+.info-text {
+    font-size: 16px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0 100px 0;
+    text-align: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-size: 300;
+    font-style: italic;
+    color: #1F2937;
+    position: absolute;
+}
+
+.quote-autor {
+    margin-top: 50px;
+    padding-top: 5;
+}
